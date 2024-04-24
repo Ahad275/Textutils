@@ -1,0 +1,43 @@
+/* Footer.css */
+.footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.about-us,
+.contact-info {
+    width: 45%;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+p,
+ul {
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
